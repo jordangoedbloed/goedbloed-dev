@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa";
+
 export function Projects() {
   const projects = [
     {
@@ -47,13 +49,15 @@ export function Projects() {
                   </p>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 ">
                   <a
                     href={project.github}
                     className="rounded-full px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition"
                   >
                     GitHub
+                    <FaGithub />
                   </a>
+
                   {/* <a
                     href={project.live}
                     className="rounded-full px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition"
