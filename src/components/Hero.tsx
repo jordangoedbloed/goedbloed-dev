@@ -43,7 +43,7 @@ export function Hero() {
           transition={{ delay: 0.2, duration: 1 }}
           className="font-roboto text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-500"
         >
-          Student at Hogeschool Rotterdam. Crafting digital experiences with
+         Web Developer.<br></br> Crafting digital experiences with
           thoughtful design and clean code.
         </motion.p>
 

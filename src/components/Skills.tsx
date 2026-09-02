@@ -10,7 +10,7 @@ export default function Skills() {
       },
       {
         title: "Tools & Others",
-        skills: ["Git","Figma", "Photoshop", "Excel", ],
+        skills: ["Git","Docker","Figma", "Photoshop", "Excel", ],
       },
     ];
 return (
