@@ -1,3 +1,5 @@
+import websiteGif from "../assets/website.gif";
+import mockupImg from "../assets/Mockup_1.png";
 import { FaGithub } from "react-icons/fa";
 
 export function Projects() {
@@ -9,12 +11,12 @@ export function Projects() {
         "A web application designed for the Gemeente Rotterdam, made and designed with Figma, React, Typescript, Vite and TailwindCSS. With this application, you can find observations about animals in Rotterdam.",
       images: [
         {
-          src: "/src/assets/website.gif",
+          src: websiteGif,
           alt: "gif desktop interface",
         },
         {
-          src: "/src/assets/Mockup_1.png",
-          alt: "gif desktop mockup",
+          src: mockupImg,
+          alt: "desktop mockup",
         },
       ],
       tech: ["React", "Typescript", "Vite", "TailwindCSS"],
